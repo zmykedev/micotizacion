@@ -9,7 +9,6 @@ export function QuotationActions() {
   const resetAll = useAppStore((s) => s.resetAll)
   const saveDraft = useAppStore((s) => s.saveDraft)
   const activeDraftId = useAppStore((s) => s.activeDraftId)
-  const items = useAppStore((s) => s.items)
   const [saved, setSaved] = useState(false)
 
   const handleSave = () => {
