@@ -205,7 +205,7 @@ export function DraftsManager() {
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogTrigger asChild>
+      <DialogTrigger >
         <Button
           variant="outline"
           className="gap-2 border-[#d6cfc5] text-[#6b635a] hover:border-[#b87333] hover:text-[#b87333] transition-all duration-300"

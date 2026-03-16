@@ -92,7 +92,7 @@ export function PDFPreviewDialog() {
 
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
-      <DialogTrigger asChild>
+      <DialogTrigger>
         <Button
           disabled={items.length === 0}
           className="gap-2 bg-[#1a1612] text-[#d4a574] hover:bg-[#2a2520] hover:text-[#e8c49a] transition-all duration-300"
